@@ -1,2 +1,3 @@
 #### WORD Scramble Game
-###![Uploading wordscramble.png…]()
+
+![Word Scramble Game](wordscramble.png)
