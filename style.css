@@ -1,0 +1,59 @@
+body{
+    background-image: url('game3.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height:50vh;
+}
+.root{
+font-size: x-large; 
+color: whitesmoke; 
+background-image: url('game\ 6.webp'); 
+box-shadow: 0 2px 5px grey; 
+padding: 0% 5% 1% 5%; 
+
+text-align: center; 
+border-radius: 5px 0; 
+background-repeat: no-repeat;
+background-size: cover;
+} 
+.game{
+    border-bottom: 4px dashed;
+}
+#scrambleWord{
+    font-size: 34px;
+}
+#hint{
+    font-size:35px ;
+}
+#output{
+   font-size: 30px; 
+   color: white;
+}
+input{
+    font-size:20px;
+    outline: 2px grey;
+    padding:10px;
+    border-radius: 10px;
+}
+.foot { 
+    margin-bottom: 0%; 
+    display: flex; 
+    width: 100%; 
+} 
+  
+.foot>button { 
+    width: 48%; 
+    padding: 1%; 
+    margin: 1%; 
+    background-color: whitesmoke;
+    border-radius: 5px; 
+    border-color: rgb(29, 90, 29); 
+    font-size: large; 
+}
+
+
+

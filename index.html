@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Scramble game</title>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "root">
+        <h1 class  = "game"> Word Scramble Game</h1>
+    <div class  = "scrambled">
+        <h2 id = "scrambleWord"> Word</h2>
+        <p id = "hint"> Hint</p>
+    </div>
+    <div class  = "option">
+        <input id  = "input" type="text" placeholder=" Guess the word">
+        <h3 id = "output">Result</h3>
+    </div>
+    <div class  = "foot">
+        <button type="button" 
+                    onclick="check()"> 
+                Check 
+            </button> 
+            <button type="button" 
+                    onclick="refresh()"> 
+                Refresh 
+            </button> 
+    </div>
+    <audio id  = "wrongAudio">
+        <source src  = "buzzer-or-wrong-answer-20582.mp3">
+    </audio>
+    <audio id  = "refreshAudio">
+        <source src = "announcement-sound-4-21464.mp3">
+    </audio>
+    </div>
+    <script src = "app.js"></script>
+</body>
+</html>
